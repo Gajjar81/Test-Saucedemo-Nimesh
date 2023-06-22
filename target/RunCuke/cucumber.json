@@ -1,0 +1,350 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6861001000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should fill the checkout information successfully",
+        "description": "",
+        "id": "checkout-page-test;user-should-fill-the-checkout-information-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 733645900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 141218500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on Checkout  page",
+            "match": {
+              "location": "CheckoutStepdefs.iAmOnCheckoutPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22601700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter FirstName \"Martin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Martin",
+                  "offset": 19
+                }
+              ],
+              "location": "CheckoutStepdefs.iEnterFirstName(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5472300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter LastName \"Luther\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Luther",
+                  "offset": 18
+                }
+              ],
+              "location": "CheckoutStepdefs.iEnterLastName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3876900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter Postalcode \"HA9 9GJ\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HA9 9GJ",
+                  "offset": 20
+                }
+              ],
+              "location": "CheckoutStepdefs.iEnterPostalcode(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on Continue",
+            "match": {
+              "location": "CheckoutStepdefs.iClickOnContinue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Finish",
+            "match": {
+              "location": "CheckoutStepdefs.iClickOnFinish()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Checkout page test",
+    "description": "As a user I want fill the checkout information on saucedemo website",
+    "id": "checkout-page-test",
+    "keyword": "Feature",
+    "uri": "Checkout.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5367032700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User should login successfully with valid credentials",
+        "description": "",
+        "id": "homepage--test;user-should-login-successfully-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 767189700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 466900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomepageStepdefs.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5600100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter username \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 18
+                }
+              ],
+              "location": "HomepageStepdefs.iEnterUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5484300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "secret_sauce",
+                  "offset": 18
+                }
+              ],
+              "location": "HomepageStepdefs.iEnterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on Login",
+            "match": {
+              "location": "HomepageStepdefs.iClickOnLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should login successfully",
+            "match": {
+              "location": "HomepageStepdefs.iShouldLoginSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Homepage  Test",
+    "description": "As user I want to login into saucedemo website",
+    "id": "homepage--test",
+    "keyword": "Feature",
+    "uri": "Homepage.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3817097800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "I want to click on Selected Products and Buy it.",
+        "description": "",
+        "id": "products-page-test;i-want-to-click-on-selected-products-and-buy-it.",
+        "after": [
+          {
+            "result": {
+              "duration": 840754000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 149600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on prductspage",
+            "match": {
+              "location": "ProductsStepdefs.iAmOnPrductspage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20053773600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on SaucelabsBackpack",
+            "match": {
+              "location": "ProductsStepdefs.iClickOnSaucelabsBackpack()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20062154800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Add to cart",
+            "match": {
+              "location": "ProductsStepdefs.iClickOnAddToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20035867100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Checkout",
+            "match": {
+              "location": "ProductsStepdefs.iClickOnCheckout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am landed on Checkout page successfully",
+            "match": {
+              "location": "ProductsStepdefs.iAmLandedOnCheckoutPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Products Page Test",
+    "description": "As a user I want to search the Items and Buy from the saucedemo website",
+    "id": "products-page-test",
+    "keyword": "Feature",
+    "uri": "Productspage.feature"
+  }
+]

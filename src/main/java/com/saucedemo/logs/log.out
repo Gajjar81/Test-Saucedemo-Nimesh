@@ -1,0 +1,7 @@
+2023-06-22 18:06:532 INFO  ProductsPage :42 - Clicking on Checkout:Proxy element for: DefaultElementLocator 'By.id: checkout'
+2023-06-22 18:06:573 INFO  ProductsPage :34 - Clicking on Saucelabsbackpack:Proxy element for: DefaultElementLocator 'By.xpath: //a[@id='item_4_title_link']'
+2023-06-22 18:06:622 INFO  ProductsPage :38 - Clicking on AddtoCart:Proxy element for: DefaultElementLocator 'By.id: add-to-cart-sauce-labs-backpack'
+2023-06-22 18:06:660 INFO  ProductsPage :42 - Clicking on Checkout:Proxy element for: DefaultElementLocator 'By.id: checkout'
+2023-06-22 18:06:933 INFO  ProductsPage :34 - Clicking on Saucelabsbackpack:Proxy element for: DefaultElementLocator 'By.xpath: //a[@id='item_4_title_link']'
+2023-06-22 18:06:00 INFO  ProductsPage :38 - Clicking on AddtoCart:Proxy element for: DefaultElementLocator 'By.id: add-to-cart-sauce-labs-backpack'
+2023-06-22 18:06:38 INFO  ProductsPage :42 - Clicking on Checkout:Proxy element for: DefaultElementLocator 'By.id: checkout'
